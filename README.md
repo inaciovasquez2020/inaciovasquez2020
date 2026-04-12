@@ -22,3 +22,11 @@
 - `Conditional`
 - `Executable`
 - `Experimental`
+
+## Repository roles
+
+- `urf-core`: canonical upstream for URF definitions and authority
+- `urf-core-community`: additive community layer for examples, exposition, tests, implementations, and non-canonical extensions
+- `urf-textbook`: exposition and release-facing documentation layer
+
+Canonical authority remains in `urf-core`.
