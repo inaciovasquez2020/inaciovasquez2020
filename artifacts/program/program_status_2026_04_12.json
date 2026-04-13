@@ -1,0 +1,20 @@
+{
+"date": "2026-04-12",
+"closed_non_clay": [
+"owc-counterexamples",
+"cslib-fmt",
+"urf-core",
+"chronos-urf-rr"
+],
+"submission_ready_non_clay": [
+"dfm-mkc-cosmology",
+"urf-textbook"
+],
+"strengthening_artifacts": [
+"clay-problem-lab",
+"ym-os-quantization",
+"pachner-invariant"
+],
+"canonical_rule": "Clay repositories are strengthening artifacts, not current closure targets.",
+"flagship_rule": "The program closes non-Clay artifacts first and presents Clay work as frontier-strengthening evidence."
+}
