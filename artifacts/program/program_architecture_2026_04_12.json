@@ -1,0 +1,40 @@
+{
+  "date": "2026-04-12",
+  "foundation": [
+    "urf-core",
+    "urf-axioms"
+  ],
+  "verification": [
+    "scientific-infrastructure",
+    "urf-core-verifier",
+    "urf-application-stress-test"
+  ],
+  "counterexample": [
+    "owc-counterexamples"
+  ],
+  "application": [
+    "dfm-mkc-cosmology",
+    "urc-minimal-blockchain",
+    "cslib-fmt",
+    "chronos-urf-rr"
+  ],
+  "community_public": [
+    "urf-core-community",
+    "urf-textbook",
+    "inaciovasquez2020"
+  ],
+  "frontier_strengthening": [
+    "clay-problem-lab",
+    "ym-os-quantization",
+    "pachner-invariant",
+    "cells-downwards-rh",
+    "poincare-new-derivation",
+    "cyclone-terminal-obstruction",
+    "Chronos-EntropyDepth"
+  ],
+  "canonical_rules": {
+    "non_clay_first": "The program closes non-Clay artifacts first.",
+    "frontier_separation": "Clay and millennium-adjacent repositories are strengthening artifacts, not current closure targets.",
+    "public_architecture": "The public surface is organized by foundation, verification, counterexample, application, community/public, and frontier-strengthening layers."
+  }
+}
