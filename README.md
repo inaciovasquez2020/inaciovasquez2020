@@ -30,3 +30,10 @@
 - `urf-textbook`: exposition and release-facing documentation layer
 
 Canonical authority remains in `urf-core`.
+
+## Canonical URF Path
+
+- Entry: `scientific-infrastructure`, `urf-core`
+- Core: `chronos-urf-rr`, `urf-spine`, `urf-verifier`, `urf-textbook`, `urf-open-review-ledger`
+- Applications: `radiative-rigidity`, `dfm-mkc-cosmology`, `clay-problem-lab`, `pachner-invariant`, `ym-os-quantization`, `ym-spectral-wall-next`
+
