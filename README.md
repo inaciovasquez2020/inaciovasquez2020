@@ -7,6 +7,13 @@
 3. `cslib-fmt`
 4. `chronos-urf-rr`
 
+
+## Contributor surfaces
+
+- `QUICKSTART.md`
+- `docs/SETUP_GUIDE.md`
+- `CONTRIBUTING.md`
+
 ## Verification Path
 
 - Start with `scientific-infrastructure`
