@@ -14,14 +14,13 @@
 - `docs/SETUP_GUIDE.md`
 - `CONTRIBUTING.md`
 
-## Verification Path
+## Canonical Entry
 
-- Start with `scientific-infrastructure`
-- Continue to `urf-core`
-- Reuse `cslib-fmt`
-- Inspect `chronos-urf-rr`
-- Treat `clay-problem-lab` as experimental
-- Use `urf-textbook` for exposition and archive
+* Start here: `vasquez-index`
+* Environment and reproducibility: `scientific-infrastructure`
+* Canonical framework base: `urf-core`
+* Flagship executable artifact: `chronos-urf-rr`
+* Applications and manuscripts: follow the Vasquez Index
 
 ## Status Legend
 
