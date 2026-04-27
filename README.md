@@ -43,3 +43,7 @@ Canonical authority remains in `urf-core`.
 - Core: `chronos-urf-rr`, `urf-spine`, `urf-verifier`, `urf-textbook`, `urf-open-review-ledger`
 - Applications: `radiative-rigidity`, `dfm-mkc-cosmology`, `clay-problem-lab`, `pachner-invariant`, `ym-os-quantization`, `ym-spectral-wall-next`
 
+
+## Lean proof portfolio classification
+
+This repository is governed by [`docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md`](docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md). It is a profile/gateway repository, not a theorem-proof repository.
