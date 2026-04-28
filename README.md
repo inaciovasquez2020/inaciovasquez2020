@@ -44,15 +44,24 @@ Canonical authority remains in `urf-core`.
 - Applications: `radiative-rigidity`, `dfm-mkc-cosmology`, `clay-problem-lab`, `pachner-invariant`, `ym-os-quantization`, `ym-spectral-wall-next`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/audit/lean-proof-portfolio-classification-2026-04-27
 
 ## Lean proof portfolio classification
 
 This repository is governed by [`docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md`](docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md). It is a profile/gateway repository, not a theorem-proof repository.
+<<<<<<< HEAD
 =======
 ## External status
 
 This repository is governed by [`docs/status/EXTERNAL_STATUS_LOCK.md`](docs/status/EXTERNAL_STATUS_LOCK.md). Build success, CI success, dashboards, ledgers, axioms, admits, `sorry`, or placeholder witnesses do not constitute theorem-level closure.
 >>>>>>> origin/main
+=======
+## External status
+
+This repository is governed by [`docs/status/EXTERNAL_STATUS_LOCK.md`](docs/status/EXTERNAL_STATUS_LOCK.md). Build success, CI success, dashboards, ledgers, axioms, admits, `sorry`, or placeholder witnesses do not constitute theorem-level closure.
+>>>>>>> origin/audit/lean-proof-portfolio-classification-2026-04-27
 ## Formal Status
 
 Status: Documentation / Profile Surface
