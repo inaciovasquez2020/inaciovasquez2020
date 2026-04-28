@@ -46,3 +46,16 @@ Canonical authority remains in `urf-core`.
 ## External status
 
 This repository is governed by [`docs/status/EXTERNAL_STATUS_LOCK.md`](docs/status/EXTERNAL_STATUS_LOCK.md). Build success, CI success, dashboards, ledgers, axioms, admits, `sorry`, or placeholder witnesses do not constitute theorem-level closure.
+## Formal Status
+
+Status: Documentation / Profile Surface
+
+This repository is a profile and navigation surface. It does not independently prove mathematical claims.
+
+Theorem-status rule:
+- Every theorem-level claim must inherit from a buildable formal source repository.
+- The inherited source must identify repository, commit or release, file path, theorem/artifact name, and status label.
+- Profile text, badges, repository maps, dashboards, GitHub Pages links, ledgers, or navigation paths do not constitute theorem-level proof.
+
+Source-of-truth document:
+- `docs/status/SOURCE_OF_TRUTH_2026_04_27.md`
