@@ -1,80 +1,58 @@
-# Inacio F. Vasquez
+# Inácio F. Vasquez
 
-Independent researcher building the Unified Rigidity Framework (URF), connecting theory, verification, and executable systems across mathematics, computer science, and physics.
+Independent researcher building the Unified Rigidity Framework (URF): a verification-first research program connecting rigidity, locality, entropy, formal proof surfaces, and executable status infrastructure across mathematics, computer science, and physics.
 
-## Start Here
+## Start here
 
-1. `vasquez-index`
-2. `frontier-status-dashboard`
-3. `scientific-infrastructure`
-4. `urf-core`
-5. `cslib-fmt`
-6. `chronos-urf-rr`
+- Public front door: https://github.com/inaciovasquez2020/vasquez-index
+- Core reference: https://github.com/inaciovasquez2020/urf-core
+- Reference implementation: https://github.com/inaciovasquez2020/chronos-urf-rr
+- Exposition: https://github.com/inaciovasquez2020/urf-textbook
 
-## Public Status Surfaces
+## What URF is
 
-- Canonical registry: `vasquez-index`
-- Public dashboard: `frontier-status-dashboard`
-- Environment and reproducibility: `scientific-infrastructure`
-- Canonical framework base: `urf-core`
-- Flagship executable artifact: `chronos-urf-rr`
-- Applications and manuscripts: follow the Vasquez Index
+URF is a repository-governed framework for separating verified structure, conditional reductions, executable certificates, and open frontiers.
 
-## Contributor Surfaces
+## What URF is not
 
-- `QUICKSTART.md`
-- `docs/SETUP_GUIDE.md`
-- `CONTRIBUTING.md`
+URF is not presented as theorem-level closure of P vs NP, Yang--Mills, Poincare, Navier--Stokes, or any other major open problem unless a repository explicitly states and verifies that claim.
 
-## Status Legend
+## Current status
 
-- `Proved`
-- `Conditional`
-- `Executable`
-- `Experimental`
-- `Deprecated / Conditional Sketch`
+| Class | Meaning |
+|---|---|
+| Verified | Repository checks, CI, Lean/Python/TypeScript verification, and stated certificates pass. |
+| Conditional | A result depends on explicitly named assumptions or external theorem inputs. |
+| Open | A frontier object remains unresolved. |
+| Not claimed | Build success, dashboard status, or executable evidence does not imply theorem-level closure. |
 
-## Repository Roles
+## Repository dependency map
 
-- `urf-core`: canonical upstream for URF definitions and authority.
-- `urf-core-community`: additive community layer for examples, exposition, tests, implementations, and non-canonical extensions.
-- `urf-textbook`: exposition and release-facing documentation layer.
-- `frontier-status-dashboard`: public dashboard for repository integrity, CI health, theorem-boundary status, and external-review readiness.
-- `vasquez-index`: canonical registry and navigation hub.
+    vasquez-index
+       |
+       +-- urf-core
+       |      |
+       |      +-- chronos-urf-rr
+       |      +-- CorrRank
+       |      +-- overlap-rigidity-lean-dev
+       |
+       +-- urf-textbook
+       |
+       +-- applications
+       |      +-- biological-friction-framework
+       |      +-- ym-os-quantization
+       |      +-- poincare-new-derivation
+       |
+       +-- infrastructure
+              +-- frontier-status-dashboard
+              +-- non-clay-problem-closure-workspace
 
-Canonical authority remains in `urf-core`.
+## Verification principle
 
-## Canonical URF Path
+Build PASS means repository verification passed. It does not mean theorem-level closure unless the relevant repository explicitly states and verifies theorem-level closure.
 
-- Entry: `scientific-infrastructure`, `urf-core`
-- Status visibility: `frontier-status-dashboard`, `vasquez-index`
-- Core: `chronos-urf-rr`, `urf-spine`, `urf-verifier`, `urf-textbook`, `urf-open-review-ledger`
-- Applications: `radiative-rigidity`, `dfm-mkc-cosmology`, `clay-problem-lab`, `pachner-invariant`, `poincare-new-derivation`, `ym-os-quantization`, `ym-spectral-wall-next`
+## Links
 
-## Lean Proof Portfolio Classification
-
-This repository is governed by `docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md`.
-
-It is a profile/gateway repository, not a theorem-proof repository.
-
-## External Status
-
-This repository is governed by `docs/status/EXTERNAL_STATUS_LOCK.md`.
-
-Build success, CI success, dashboards, ledgers, axioms, admits, `sorry`, or placeholder witnesses do not constitute theorem-level closure.
-
-## Formal Status
-
-Status: Documentation / Profile Surface
-
-This repository is a profile and navigation surface. It does not independently prove mathematical claims.
-
-Theorem-status rule:
-
-- Every theorem-level claim must inherit from a buildable formal source repository.
-- The inherited source must identify repository, commit or release, file path, theorem/artifact name, and status label.
-- Profile text, badges, repository maps, dashboards, GitHub Pages links, ledgers, or navigation paths do not constitute theorem-level proof.
-
-Source-of-truth document:
-
-- `docs/status/SOURCE_OF_TRUTH_2026_04_27.md`
+- ORCID: https://orcid.org/0009-0008-8459-3400
+- Research site: https://vasquezresearch.com
+- Contact: inacio@vasquezresearch.com
