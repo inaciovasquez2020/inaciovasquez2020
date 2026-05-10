@@ -56,3 +56,30 @@ Build PASS means repository verification passed. It does not mean theorem-level 
 - ORCID: https://orcid.org/0009-0008-8459-3400
 - Research site: https://vasquezresearch.com
 - Contact: inacio@vasquezresearch.com
+
+<!-- FRONTIER_STATUS_START -->
+## Current public frontier status
+
+Last updated: 2026-05-10
+
+### Chronos / URF-RR
+
+- Selected-domain H4.1/FGL observation-to-gap soundness is closed on `H4_1_FGL_SelectedTheoremDomain`.
+- Chronos PR #212 merged and verified: `SELECTED_DOMAIN_GAP_SOUNDNESS_CLOSED`.
+- Frontier Status Dashboard PR #41 updated the public Chronos status.
+- Frontier Status Dashboard PR #42 hid the private/internal aggregate row from the public dashboard while preserving the guard fixture.
+
+### Public dashboard boundary
+
+- Public dashboard records externally inspectable repositories only.
+- Private/internal aggregate metadata is intentionally omitted from the rendered dashboard.
+- No unrestricted H4.1/FGL closure is claimed.
+- No UniversalFiberEntropyGap theorem is claimed.
+- No Chronos-RR theorem closure is claimed.
+- No P vs NP or Clay-problem closure is claimed.
+
+### Verification surfaces
+
+- `chronos-urf-rr`: targeted verifier passed, targeted pytest passed, `lake build` passed.
+- `frontier-status-dashboard`: `npm test -- --run` passed, `npm run build` passed.
+<!-- FRONTIER_STATUS_END -->
