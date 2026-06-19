@@ -60,26 +60,43 @@ Build PASS means repository verification passed. It does not mean theorem-level 
 <!-- FRONTIER_STATUS_START -->
 ## Current public frontier status
 
-Last updated: 2026-05-10
+Last updated: 2026-06-19
 
-### Chronos / URF-RR
+### Profile repository
 
-- Selected-domain H4.1/FGL observation-to-gap soundness is closed on `H4_1_FGL_SelectedTheoremDomain`.
-- Chronos PR #212 merged and verified: `SELECTED_DOMAIN_GAP_SOUNDNESS_CLOSED`.
-- Frontier Status Dashboard PR #41 updated the public Chronos status.
-- Frontier Status Dashboard PR #42 hid the private/internal aggregate row from the public dashboard while preserving the guard fixture.
+* This repository remains a documentation/profile README surface.
+* It is a routing layer for public URF repositories, verification surfaces, and status boundaries.
+* Profile text, repository maps, dashboards, badges, or build success do not independently establish theorem-level closure.
+
+### Active public reference surfaces
+
+* `vasquez-index`: public front door for repository routing and public status indexing.
+* `urf-core`: trusted definitions, schemas, certificate boundaries, Lean/Python verification artifacts, and bounded/frontier theorem surfaces.
+* `chronos-urf-rr`: flagship executable URF/Chronos implementation with verified build and test surface.
+* `theorem-closure-classifier`: bounded theorem-status classifier and external validation/replay ledger.
+* `urf-textbook`: exposition and release-facing documentation layer.
+
+### Current June 2026 status snapshot
+
+* `chronos-urf-rr`: zero-visible-opaque-axiom conditional frontier status was reached in the H4.1 certified-family route; this does not claim unrestricted H4.1/FGL closure.
+* `theorem-closure-classifier`: Iris-Lean external replay ladder and bounded closure proof-pattern reference are now part of the public classifier surface.
+* `urf-core`: recent work continues to add bounded obligation, witness, dependency-certificate, and frontier-surface layers; these are proof-infrastructure advances, not final analytic closure.
+* `URC`: container package publication surface exists for reproducible pull/run use; immutable digest/tag discipline remains part of the boundary.
 
 ### Public dashboard boundary
 
-- Public dashboard records externally inspectable repositories only.
-- Private/internal aggregate metadata is intentionally omitted from the rendered dashboard.
-- No unrestricted H4.1/FGL closure is claimed.
-- No UniversalFiberEntropyGap theorem is claimed.
-- No Chronos-RR theorem closure is claimed.
-- No P vs NP or Clay-problem closure is claimed.
+* Public dashboard and profile surfaces record externally inspectable repositories only.
+* Private/internal aggregate metadata is intentionally omitted from public profile status.
+* No unrestricted H4.1/FGL closure is claimed.
+* No UniversalFiberEntropyGap theorem is claimed.
+* No Chronos-RR theorem closure is claimed.
+* No Yang--Mills mass gap theorem is claimed.
+* No gravity, cosmology, canonical quantization, P vs NP, or Clay-problem closure is claimed.
 
-### Verification surfaces
+### Verification principle
 
-- `chronos-urf-rr`: targeted verifier passed, targeted pytest passed, `lake build` passed.
-- `frontier-status-dashboard`: `npm test -- --run` passed, `npm run build` passed.
+* Build PASS means the named repository verification passed under its stated scope.
+* Conditional means the result depends on explicitly named assumptions or external theorem inputs.
+* Open means the frontier object remains unresolved.
+* Not claimed means executable evidence, dashboards, or profile text must not be promoted into theorem-level closure.
 <!-- FRONTIER_STATUS_END -->
