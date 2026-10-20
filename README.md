@@ -1,6 +1,8 @@
 # Inacio F. Vasquez
 
-Independent researcher building the Unified Rigidity Framework (URF): a verification-first research program connecting rigidity, locality, entropy, formal proof surfaces, and executable status infrastructure across mathematics, computer science, and physics.
+Independent researcher developing the Unified Rigidity Framework (URF), a verification-first research program investigating connections among rigidity, locality, entropy, formal proof systems, and executable verification infrastructure across mathematics, computer science, and physics.
+
+The research emphasizes explicit assumptions, reproducible computational checks, formal verification where applicable, and clear boundaries between established results, conditional claims, conjectures, and open problems.
 
 ## Start here
 
