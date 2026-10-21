@@ -62,7 +62,7 @@ Build PASS means repository verification passed. It does not mean theorem-level 
 <!-- FRONTIER_STATUS_START -->
 ## Current public frontier status
 
-Last updated: 2026-06-19
+Last updated: 2026-10-20
 
 ### Profile repository
 
@@ -74,16 +74,17 @@ Last updated: 2026-06-19
 
 * `vasquez-index`: public front door for repository routing and public status indexing.
 * `urf-core`: trusted definitions, schemas, certificate boundaries, Lean/Python verification artifacts, and bounded/frontier theorem surfaces.
-* `chronos-urf-rr`: flagship executable URF/Chronos implementation with verified build and test surface.
+* `chronos-urf-rr`: executable URF/Chronos frontier with exact, bounded GfE certificates and explicit open spectral obligations.
 * `theorem-closure-classifier`: bounded theorem-status classifier and external validation/replay ledger.
 * `urf-textbook`: exposition and release-facing documentation layer.
 
-### Current June 2026 status snapshot
+### Current October 2026 status snapshot
 
-* `chronos-urf-rr`: zero-visible-opaque-axiom conditional frontier status was reached in the H4.1 certified-family route; this does not claim unrestricted H4.1/FGL closure.
-* `theorem-closure-classifier`: Iris-Lean external replay ladder and bounded closure proof-pattern reference are now part of the public classifier surface.
-* `urf-core`: recent work continues to add bounded obligation, witness, dependency-certificate, and frontier-surface layers; these are proof-infrastructure advances, not final analytic closure.
-* `URC`: container package publication surface exists for reproducible pull/run use; immutable digest/tag discipline remains part of the boundary.
+* `chronos-urf-rr`: exact projector/GQQ, fixed-point and local-uniform Riesz-limit, finite-beta guard, rank-loss, and point-specific exterior-contour results are recorded. Global uniformity, invariant-projector closure, Fredholm resolution, endpoint admissibility, and global spectral closure remain open.
+* `poincare-new-derivation`: a recent formal result closes a source-face obstruction only under a named no-high-incidence hypothesis. The result is conditional; unconditional global cyclic rigidity and `Poincare.JIID` remain unproved.
+* `dfm-mkc-cosmology`: Zero Day Test 242 retains previously reported numerical event times as unverified because no independent solver execution and raw event log are attached. No numerical convergence or recollapse conclusion is claimed from those values.
+* `urf-core`: checksum-reconciliation tooling and CI workflow changes were committed. This profile records the change but does not assert an independent rerun of CI or a fresh checksum audit.
+* These are repository-level status notes based on visible commits and artifacts, not an independent full audit of every repository or open pull request.
 
 ### Public dashboard boundary
 
