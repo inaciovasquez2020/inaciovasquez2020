@@ -26,6 +26,43 @@ Source-of-truth document: `docs/status/SOURCE_OF_TRUTH_2026_04_27.md`
 
 ---
 
+## Featured verified result · Poincaré combinatorics
+
+**Exact incidence identity (not the Poincaré conjecture).** In the public [Poincaré derivation repository](https://github.com/inaciovasquez2020/poincare-new-derivation), the Lean theorem
+[`Poincare.ClosedTriangulationCore.PhiSupport_eq_four_mul_tets_sub_vertices`](https://github.com/inaciovasquez2020/poincare-new-derivation/blob/ea6b6c5f22858b5e7fc3c38e616303147b62e69b/lean/Poincare/PhiSupportEulerCount.lean)
+proves, for a finite tetrahedron-list triangulation `K` satisfying `ClosedTriangulationCore K`:
+
+$$
+\Phi_{\mathrm{support}}(K)=4\bigl(|K.\mathrm{tets}|-|V(K)|\bigr).
+$$
+
+Here `V(K)` is the set of distinct represented vertices, `PhiSupport` measures the absolute deviation of vertex tetrahedron-incidence degrees from **four**, and the actual Lean statement uses natural-number subtraction. The closed-core hypothesis requires distinct vertices per tetrahedron, nonduplicated tetrahedron vertex sets, and two incident tetrahedra at each represented triangular face. It does **not** alone assert every topological 3-manifold condition.
+
+| Evidence | Audited value |
+|---|---|
+| Claim class | **LEAN_VERIFIED, conditional on the explicit closed-core hypothesis** |
+| Theorem | `Poincare.ClosedTriangulationCore.PhiSupport_eq_four_mul_tets_sub_vertices` |
+| Source revision | [`ea6b6c5f2285`](https://github.com/inaciovasquez2020/poincare-new-derivation/commit/ea6b6c5f22858b5e7fc3c38e616303147b62e69b) |
+| Lean toolchain | `leanprover/lean4:v4.30.0-rc1` |
+| Axiom report | `[Classical.choice, Quot.sound, propext]` (within permitted Lean axioms) |
+| Build and axiom receipt | [Lean Action CI · successful exact-revision run](https://github.com/inaciovasquez2020/poincare-new-derivation/actions/runs/42221418648) |
+| Open boundary | Global strict descent, geometric sphere recognition and independent `Poincare.JIID` **OPEN** |
+
+**Reproduce in the repository root**, using its pinned Lean toolchain and existing Mathlib dependencies:
+
+```bash
+set -euo pipefail
+tmp="$(mktemp -d)"
+trap 'rm -rf "$tmp"' EXIT
+lake build Poincare.PhiSupportEulerCount
+printf '%s\n' 'import Poincare.PhiSupportEulerCount' '#print axioms Poincare.ClosedTriangulationCore.PhiSupport_eq_four_mul_tets_sub_vertices' > "$tmp/axioms.lean"
+lake env lean "$tmp/axioms.lean"
+```
+
+This is a prior GitHub CI verification receipt; a fresh independent Mac reproduction is **NOT_RUN**. For the complete portfolio and archived project statuses, see the [public repository index](https://github.com/inaciovasquez2020/vasquez-index). The older October 20 profile snapshot below is historical.
+
+---
+
 Independent researcher building the Unified Rigidity Framework (URF), connecting theory, verification, and executable systems across mathematics, computer science, and physics.
 
 The research emphasizes explicit assumptions, reproducible computational checks, formal verification where applicable, and clear boundaries between established results, conditional claims, conjectures, and open problems.
