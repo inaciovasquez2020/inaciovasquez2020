@@ -32,9 +32,9 @@ Source-of-truth document: `docs/status/SOURCE_OF_TRUTH_2026_04_27.md`
 [`Poincare.ClosedTriangulationCore.PhiSupport_eq_four_mul_tets_sub_vertices`](https://github.com/inaciovasquez2020/poincare-new-derivation/blob/ea6b6c5f22858b5e7fc3c38e616303147b62e69b/lean/Poincare/PhiSupportEulerCount.lean)
 proves, for a finite tetrahedron-list triangulation `K` satisfying `ClosedTriangulationCore K`:
 
-\[
+$$
 \Phi_{\mathrm{support}}(K)=4\bigl(|K.\mathrm{tets}|-|V(K)|\bigr).
-\]
+$$
 
 Here `V(K)` is the set of distinct represented vertices, `PhiSupport` measures the absolute deviation of vertex tetrahedron-incidence degrees from **four**, and the actual Lean statement uses natural-number subtraction. The closed-core hypothesis requires distinct vertices per tetrahedron, nonduplicated tetrahedron vertex sets, and two incident tetrahedra at each represented triangular face. It does **not** alone assert every topological 3-manifold condition.
 
