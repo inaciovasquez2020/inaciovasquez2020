@@ -1,4 +1,30 @@
+<div align="center">
+
 # Inacio F. Vasquez
+
+**Independent Research · Mathematics · Formal Verification · Scientific Computing**
+
+Verification-first research with source-linked results, reproducible artifacts and explicit open problems.
+
+[**Research website**](https://inaciovasquez2020.github.io/) · [**Explore projects**](https://inaciovasquez2020.github.io/#projects) · [**Publications**](https://inaciovasquez2020.github.io/publications.html) · [**Verification**](https://inaciovasquez2020.github.io/#method) · [**Contact**](https://inaciovasquez2020.github.io/contact.html)
+
+[**Repository registry**](https://github.com/inaciovasquez2020/vasquez-index) · [**Status dashboard**](https://github.com/inaciovasquez2020/frontier-status-dashboard) · [**ORCID**](https://orcid.org/0009-0008-8459-3400)
+
+</div>
+
+> **Research status:** Public dashboards, CI badges and profile descriptions are navigation and evidence summaries, not proofs. Independently derived Poincaré global JIID remains **OPEN**. The October 20 status summary below is a historical snapshot; consult the source repositories for current conditions.
+
+## Formal Status
+
+Status: Documentation / Profile Surface
+
+It does not independently prove mathematical claims.
+
+Every theorem-level claim must inherit from a buildable formal source repository.
+
+Source-of-truth document: `docs/status/SOURCE_OF_TRUTH_2026_04_27.md`
+
+---
 
 Independent researcher building the Unified Rigidity Framework (URF), connecting theory, verification, and executable systems across mathematics, computer science, and physics.
 
