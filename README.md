@@ -26,6 +26,14 @@ Source-of-truth document: `docs/status/SOURCE_OF_TRUTH_2026_04_27.md`
 
 ---
 
+## Recent reproducible research · melanoma CD36 (2026-11-15)
+
+The [matched-baseline CD36 exploratory checkpoint](https://inaciovasquez2020.github.io/melanoma-cd36.html) evaluated 12 melanoma patients (4 responders, 8 nonresponders) using exact patient-level response-label permutations. Both original log-normalized CD36 mean-difference tests were reproduced, and a cell-ID audit removed 17 known malignant cells from the provisional myeloid candidates. The corrected myeloid test remained nonsignificant (288/495); no CD36 clinical prediction or new resistance mechanism was established.
+
+**Evidence status:** `COMPUTATION_PASS` for the bounded analyses; definitive macrophage annotation and independent clinical cohort replication `OPEN`. [Pinned source commit](https://github.com/inaciovasquez2020/biological-friction-framework/tree/510bc502d67e6ac5289f56d2b73a44f2ba6bd313/research/melanoma/cd36-paired-baseline-2026-11-15). This is not a peer-reviewed clinical finding or treatment recommendation.
+
+---
+
 ## Featured verified result · Poincaré combinatorics
 
 **Exact incidence identity (not the Poincaré conjecture).** In the public [Poincaré derivation repository](https://github.com/inaciovasquez2020/poincare-new-derivation), the Lean theorem
