@@ -91,26 +91,9 @@ URF is not presented as theorem-level closure of P vs NP, Yang--Mills, Poincare,
 | Open | A frontier object remains unresolved. |
 | Not claimed | Build success, dashboard status, or executable evidence does not imply theorem-level closure. |
 
-## Repository dependency map
+## Research network
 
-    vasquez-index
-       |
-       +-- urf-core
-       |      |
-       |      +-- chronos-urf-rr
-       |      +-- CorrRank
-       |      +-- overlap-rigidity-lean-dev
-       |
-       +-- urf-textbook
-       |
-       +-- applications
-       |      +-- biological-friction-framework
-       |      +-- ym-os-quantization
-       |      +-- poincare-new-derivation
-       |
-       +-- infrastructure
-              +-- frontier-status-dashboard
-              +-- non-clay-problem-closure-workspace
+The [public Spiderweb](https://inaciovasquez2020.github.io/research-network/) opens on the proposed **Chronos ↔ DFM-MKC Cosmology** 5D→4D transfer. URF Core supplies supporting finite-model algebra. The transfer remains **OPEN**.
 
 ## Verification principle
 
@@ -170,7 +153,7 @@ Last updated: 2026-10-20
 <!-- PUBLIC_REPOSITORY_SET_BEGIN -->
 # Public repository set
 
-GitHub-visible public repository count: **19**.
+GitHub-visible public repository count: **22**.
 
 | Repository | Role | Status | Boundary |
 |---|---|---|---|
@@ -193,6 +176,9 @@ GitHub-visible public repository count: **19**.
 | [`urf-verifier`](https://github.com/inaciovasquez2020/urf-verifier) | Deterministic verifier for URF certificates, provenance checks, and reproducible validation. | public; verifier infrastructure | `BOUNDARY := ¬ certificate_validation_implies_unstated_mathematical_claims` |
 | [`vasquez-index`](https://github.com/inaciovasquez2020/vasquez-index) | Canonical navigation index for repositories, artifacts, publications, and boundary status. | public; canonical index layer | `BOUNDARY := ¬ index_navigation_implies_repository_theorem_closure` |
 | [`zero_day_restricted_closures`](https://github.com/inaciovasquez2020/zero_day_restricted_closures) | Restricted-closure research surface for bounded Hyper-Kahler/K3^[n] reductions. | public; conditional reduction surface; unconditional `ZeroDayClosure` not proved | `BOUNDARY := ¬ conditional_zero_day_reduction_implies_unconditional_closure` |
+| [`chronos-curated-release`](https://github.com/inaciovasquez2020/chronos-curated-release) | Conditional Chronos research and signed certificates. | public | Scope excludes unrestricted Chronos theorem closure. |
+| [`cslib`](https://github.com/inaciovasquez2020/cslib) | Fork of the Lean computer-science library. | public | Scope excludes a portfolio theorem claim. |
+| [`overlap-rigidity-oracle-release`](https://github.com/inaciovasquez2020/overlap-rigidity-oracle-release) | Hidden-assignment oracle information bound. | public | Scope excludes general SAT hardness. |
 
 `BOUNDARY := ¬ profile_repository_map_implies_theorem_level_closure`
 <!-- PUBLIC_REPOSITORY_SET_END -->
