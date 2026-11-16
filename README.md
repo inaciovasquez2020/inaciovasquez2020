@@ -26,6 +26,14 @@ Source-of-truth document: `docs/status/SOURCE_OF_TRUTH_2026_04_27.md`
 
 ---
 
+## Recent finite computational result · Chronos CSG (2026-11-16)
+
+[Source-linked research page](https://inaciovasquez2020.github.io/csg-finite-obstruction.html) · [Exact commit certificate](https://github.com/inaciovasquez2020/chronos-urf-rr/blob/80287945952c83bb1fbf8cabf9aae3c20273c0df/research/event_first/CSG_INDEPENDENT_BOX_NONEXTENSION_20261116.md)
+
+Exact finite-state calculations establish that, inside a stated rational box of the first three nonnegative classical sequential growth couplings, the five-birth expected pair-chain density is **greater than 19/100 for every nonnegative fourth free coupling**, against a four-birth target of 1/10. Additional three- and four-chain bounds were also checked. **Evidence:** COMPUTATION_PASS for the box only; unrestricted nonextension CONDITIONAL on the un-replayed global four-event uniqueness certificate; Lean NOT_RUN, novelty and independent review OPEN. No continuum spacetime or gravity theorem is claimed.
+
+---
+
 ## Recent reproducible research · melanoma CD36 (2026-11-15)
 
 The [matched-baseline CD36 exploratory checkpoint](https://inaciovasquez2020.github.io/melanoma-cd36.html) evaluated 12 melanoma patients (4 responders, 8 nonresponders) using exact patient-level response-label permutations. Both original log-normalized CD36 mean-difference tests were reproduced, and a cell-ID audit removed 17 known malignant cells from the provisional myeloid candidates. The corrected myeloid test remained nonsignificant (288/495); no CD36 clinical prediction or new resistance mechanism was established.
