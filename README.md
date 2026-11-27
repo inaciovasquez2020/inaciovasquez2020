@@ -14,6 +14,24 @@ Verification-first research with source-linked results, reproducible artifacts a
 
 > **Research status:** Public dashboards, CI badges and profile descriptions are navigation and evidence summaries, not proofs. Independently derived Poincaré global JIID remains **OPEN**. The October 20 status summary below is a historical snapshot; consult the source repositories for current conditions.
 
+## Featured mathematics — exact radius-local entropy minimax
+
+For disjoint unions of cycles on N vertices, each of length at least L,
+with N >= L >= max(3, 2r+2), the optimal worst-case absolute error of a
+deterministic estimator of uniform finite-field cycle-space entropy, given
+only the multiset of rooted induced radius-r neighborhoods, is
+
+    (floor(N/L) - 1) * log(q) / 2.
+
+**LEAN_VERIFIED** on the represented cycle family. The proof establishes
+both a lower bound and an attaining estimator. It is an exact specialization
+of known locality and optimal-recovery principles, not a claim of a new
+universal theory. Novelty and independent full formal-proof review remain OPEN.
+
+[Actual Lean theorem](https://github.com/inaciovasquez2020/urf-core/blob/297a633b164fd91dade9e2b47bda6056867e3f59/lean/URF/Foundation/CyclePartitionRadiusMinimax.lean)
+· [37-declaration verification receipt](https://github.com/inaciovasquez2020/urf-core/tree/297a633b164fd91dade9e2b47bda6056867e3f59/research/certificates/radius_local_cycle_minimax)
+· [Merged PR #603](https://github.com/inaciovasquez2020/urf-core/pull/603).
+
 ## Formal Status
 
 Status: Documentation / Profile Surface
@@ -123,7 +141,9 @@ URF is not presented as theorem-level closure of P vs NP, Yang--Mills, Poincare,
 
 | Class | Meaning |
 |---|---|
-| Verified | Repository checks, CI, Lean/Python/TypeScript verification, and stated certificates pass. |
+| LEAN_VERIFIED | Named Lean theorem compiled with permitted-axiom audit under its stated hypotheses. |
+| COMPUTATION_PASS | Named bounded computational check passed; not an unrestricted proof. |
+| Build / CI PASS | Named build or integration checks passed; not theorem-level closure. |
 | Conditional | A result depends on explicitly named assumptions or external theorem inputs. |
 | Open | A frontier object remains unresolved. |
 | Not claimed | Build success, dashboard status, or executable evidence does not imply theorem-level closure. |
